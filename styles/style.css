@@ -65,6 +65,12 @@ main > section{
 .banner{
   margin-top: 50px; 
 }
+
+section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 .banner-title{
   max-width: 700px;
   font:bold;
@@ -190,9 +196,30 @@ main > section{
 
 
 @media screen and (max-width: 576px){
+
+  .border-width {
+    min-width: 95%;
+  }
   nav{
     flex-direction: column;
   }
+
+  .fact-cards{ 
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10px;
+
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .fact-crd {
+    width: auto;
+    text-align: center;
+  }
+
+ 
   .feature-teams,
   .love-enjoy-section{
     flex-direction: column;
