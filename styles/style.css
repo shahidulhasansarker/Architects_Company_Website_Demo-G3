@@ -17,7 +17,9 @@
 header{
   background-color: #FFF4E7;
 }
-
+main > section{
+  margin-top: 130px;
+}
 .display-flex{
   display: flex;
 }
@@ -51,7 +53,6 @@ header{
   text-decoration: none;
   margin-right: 30px;
 }
-
 .btn-primary{
   background-color: #FF900E;
   font:bold;
@@ -64,7 +65,6 @@ header{
 .banner{
   margin-top: 50px; 
 }
- 
 .banner-title{
   max-width: 700px;
   font:bold;
@@ -72,7 +72,6 @@ header{
   font-size: 3.5rem;
   margin: auto;
 }
-
 .banner-items{
   max-width: 800px;
   text-align: center;
@@ -92,8 +91,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 30px;
-  
+  padding-top: 30px; 
 }
 .feature-content{
   max-width: 520px;
@@ -103,4 +101,44 @@ header{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   gap: 10px;
+}
+.love-enjoy-section{
+  display: flex;
+}
+.love-enjoy{
+  border-left: 3px solid #FF900E;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 2.2rem;
+}
+.love-enjoy-content{
+  padding: 40px;
+  max-width: 600px;
+}
+.feature-card{
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+}
+.feature-card-title{
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+}
+.badge{
+  background-color: #FF900E;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: -100px;
+  margin-left: -50px;
+
+}
+.ten-exp{
+  font-size: 2.5rem;
+  font:900;
+}
+.architect-apu{
+
 }
